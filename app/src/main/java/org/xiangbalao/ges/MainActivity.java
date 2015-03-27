@@ -1,4 +1,4 @@
-package cn.com.unfind.ges;
+package org.xiangbalao.ges;
 
 import android.app.Activity;
 import android.content.SharedPreferences;
@@ -7,7 +7,10 @@ import android.view.Window;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import cn.com.unfind.ges.view.NinePointLineView;
+import org.xiangbalao.ges.view.NinePointLineView;
+
+import cn.com.unfind.ges.R;
+
 /**
  * 作用：测试九宫格手势密码
  * 作者：unfind

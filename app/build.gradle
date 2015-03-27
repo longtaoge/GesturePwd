@@ -5,7 +5,7 @@ android {
     buildToolsVersion "22.0.0"
 
     defaultConfig {
-        applicationId "cn.com.unfind.ges"
+        applicationId "org.xiangbalao.ges"
         minSdkVersion 8
         targetSdkVersion 17
     }

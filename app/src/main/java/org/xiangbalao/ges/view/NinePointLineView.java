@@ -1,9 +1,9 @@
-package cn.com.unfind.ges.view;
+package org.xiangbalao.ges.view;
 
 
-import cn.com.unfind.ges.MainActivity;
+import org.xiangbalao.ges.MainActivity;
 import cn.com.unfind.ges.R;
-import cn.com.unfind.ges.SetPwdResActivity;
+import org.xiangbalao.ges.SetPwdResActivity;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;

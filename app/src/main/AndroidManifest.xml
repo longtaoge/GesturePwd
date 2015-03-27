@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="cn.com.unfind.ges.MainActivity"
+            android:name="org.xiangbalao.ges.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,7 +22,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="cn.com.unfind.ges.SetPwdResActivity"></activity>
+        <activity android:name="org.xiangbalao.ges.SetPwdResActivity"></activity>
     </application>
 
 </manifest>

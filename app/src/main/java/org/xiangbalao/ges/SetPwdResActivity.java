@@ -1,10 +1,13 @@
-package cn.com.unfind.ges;
+package org.xiangbalao.ges;
 
 import android.app.Activity;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.Window;
 import android.widget.TextView;
+
+import cn.com.unfind.ges.R;
+
 /**
  * 作用：显示手势密码设置结果界面
  * 作者：unfind

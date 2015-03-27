@@ -1,0 +1,189 @@
+*version
+3
+data-file-overflow=false
+clock=dual
+elapsed-time-usec=1516082
+num-method-calls=379
+clock-call-overhead-nsec=3726
+vm=dalvik
+*threads
+1	main
+11	Binder_3
+10	Binder_2
+9	Binder_1
+8	FinalizerWatchdogDaemon
+7	FinalizerDaemon
+6	ReferenceQueueDaemon
+5	Compiler
+4	JDWP
+3	Signal Catcher
+2	GC
+*methods
+0x4bcaba30	android/ddm/DdmHandleProfiling	handleChunk	(Lorg/apache/harmony/dalvik/ddmc/Chunk;)Lorg/apache/harmony/dalvik/ddmc/Chunk;	DdmHandleProfiling.java	73
+0x4bcab8a0	android/ddm/DdmHandleProfiling	handleMPRQ	(Lorg/apache/harmony/dalvik/ddmc/Chunk;)Lorg/apache/harmony/dalvik/ddmc/Chunk;	DdmHandleProfiling.java	-1
+0x4bcab910	android/ddm/DdmHandleProfiling	handleMPSE	(Lorg/apache/harmony/dalvik/ddmc/Chunk;)Lorg/apache/harmony/dalvik/ddmc/Chunk;	DdmHandleProfiling.java	165
+0x4bcab948	android/ddm/DdmHandleProfiling	handleMPSS	(Lorg/apache/harmony/dalvik/ddmc/Chunk;)Lorg/apache/harmony/dalvik/ddmc/Chunk;	DdmHandleProfiling.java	137
+0x4bb8cf90	java/nio/ByteBuffer	order	(Ljava/nio/ByteOrder;)Ljava/nio/ByteBuffer;	ByteBuffer.java	647
+0x4bb8d000	java/nio/ByteBuffer	orderImpl	(Ljava/nio/ByteOrder;)V	ByteBuffer.java	655
+0x4bb8c700	java/nio/ByteBuffer	<init>	(ILjava/nio/MemoryBlock;)V	ByteBuffer.java	117
+0x4bb8c7e0	java/nio/ByteBuffer	wrap	([BII)Ljava/nio/ByteBuffer;	ByteBuffer.java	104
+0x4bbf1168	com/google/android/gles_jni/EGLImpl	eglMakeCurrent	(Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLSurface;Ljavax/microedition/khronos/egl/EGLSurface;Ljavax/microedition/khronos/egl/EGLContext;)Z	EGLImpl.java	-2
+0x4bbb4498	java/util/HashMap	get	(Ljava/lang/Object;)Ljava/lang/Object;	HashMap.java	-1
+0x4bbb45e8	java/util/HashMap	newValueIterator	()Ljava/util/Iterator;	HashMap.java	894
+0x4bbb4738	java/util/HashMap	size	()I	HashMap.java	280
+0x4bbb4770	java/util/HashMap	values	()Ljava/util/Collection;	HashMap.java	707
+0x4bc36bd0	java/util/Arrays	checkOffsetAndCount	(III)V	Arrays.java	1730
+0x4bb85bd8	java/lang/VMThread	currentThread	()Ljava/lang/Thread;	VMThread.java	-2
+0x4bc1b640	org/apache/harmony/dalvik/ddmc/ChunkHandler	wrapChunk	(Lorg/apache/harmony/dalvik/ddmc/Chunk;)Ljava/nio/ByteBuffer;	ChunkHandler.java	80
+0x4bc21828	android/app/Activity	onTrimMemory	(I)V	Activity.java	1652
+0x4bc36448	java/lang/ThreadLocal$Values	access$000	(Ljava/lang/ThreadLocal$Values;)[Ljava/lang/Object;	ThreadLocal.java	144
+0x4bc36480	java/lang/ThreadLocal$Values	access$100	(Ljava/lang/ThreadLocal$Values;)I	ThreadLocal.java	144
+0x4bc40468	java/nio/HeapByteBuffer	get	()B	HeapByteBuffer.java	107
+0x4bc403f0	java/nio/HeapByteBuffer	<init>	([B)V	HeapByteBuffer.java	44
+0x4bc40428	java/nio/HeapByteBuffer	<init>	([BII)V	HeapByteBuffer.java	52
+0x4bc5c540	android/os/Handler	dispatchMessage	(Landroid/os/Message;)V	Handler.java	91
+0x4bc5cb60	android/os/Handler	sendMessage	(Landroid/os/Message;)Z	Handler.java	495
+0x4bc5cbd0	android/os/Handler	sendMessageAtTime	(Landroid/os/Message;J)Z	Handler.java	580
+0x4bc5cc08	android/os/Handler	sendMessageDelayed	(Landroid/os/Message;J)Z	Handler.java	555
+0x4bc5c458	android/os/Handler	enqueueMessage	(Landroid/os/MessageQueue;Landroid/os/Message;J)Z	Handler.java	614
+0x4bbe28d0	android/view/HardwareRenderer	endTrimMemory	()V	HardwareRenderer.java	586
+0x4bbe2908	android/view/HardwareRenderer	isAvailable	()Z	HardwareRenderer.java	211
+0x4bbe2b00	android/view/HardwareRenderer	startTrimMemory	(I)V	HardwareRenderer.java	578
+0x4bbcdda8	android/os/Binder	clearCallingIdentity	()J	Binder.java	-2
+0x4bbcde18	android/os/Binder	execTransact	(IIII)Z	Binder.java	-1
+0x4bbcde50	android/os/Binder	flushPendingCommands	()V	Binder.java	-2
+0x4bc0d538	android/os/Debug	isMethodTracingActive	()Z	Debug.java	529
+0x4bc0dbc8	android/os/Debug	startMethodTracingDdms	(II)V	Debug.java	521
+0x4bc0dc70	android/os/Debug	stopMethodTracing	()V	Debug.java	536
+0x4bcab520	android/ddm/DdmHandleHeap	handleChunk	(Lorg/apache/harmony/dalvik/ddmc/Chunk;)Lorg/apache/harmony/dalvik/ddmc/Chunk;	DdmHandleHeap.java	82
+0x4bcab358	android/ddm/DdmHandleHeap	handleHPIF	(Lorg/apache/harmony/dalvik/ddmc/Chunk;)Lorg/apache/harmony/dalvik/ddmc/Chunk;	DdmHandleHeap.java	112
+0x4bbd33f0	android/os/Parcel	enforceInterface	(Ljava/lang/String;)V	Parcel.java	448
+0x4bbd39a0	android/os/Parcel	readInt	()I	Parcel.java	1443
+0x4bbd3e38	android/os/Parcel	recycle	()V	Parcel.java	311
+0x4bbd2690	android/os/Parcel	freeBuffer	()V	Parcel.java	2198
+0x4bbd26c8	android/os/Parcel	init	(I)V	Parcel.java	2188
+0x4bbd28c0	android/os/Parcel	nativeEnforceInterface	(ILjava/lang/String;)V	Parcel.java	-2
+0x4bbd2a80	android/os/Parcel	nativeReadInt	(I)I	Parcel.java	-2
+0x4bbd2ea8	android/os/Parcel	obtain	(I)Landroid/os/Parcel;	Parcel.java	2161
+0x4bc6da20	android/app/FragmentManagerImpl	dispatchTrimMemory	(I)V	FragmentManager.java	1897
+0x4bb959e8	java/lang/Integer	equals	(Ljava/lang/Object;)Z	Integer.java	209
+0x4bb95a58	java/lang/Integer	hashCode	()I	Integer.java	303
+0x4bb952a8	java/lang/Integer	<init>	(I)V	Integer.java	88
+0x4bb95858	java/lang/Integer	valueOf	(I)Ljava/lang/Integer;	Integer.java	707
+0x4bb8d568	java/nio/Buffer	<init>	(IILjava/nio/MemoryBlock;)V	Buffer.java	97
+0x4be4e0c8	org/apache/harmony/dalvik/ddmc/DdmVmInternal	heapInfoNotify	(I)Z	DdmVmInternal.java	-2
+0x4bc0ed50	android/os/Trace	isTagEnabled	(J)Z	Trace.java	115
+0x4bc0ee68	android/os/Trace	traceBegin	(JLjava/lang/String;)V	Trace.java	143
+0x4bc0eed8	android/os/Trace	traceEnd	(J)V	Trace.java	155
+0x4bbb0338	java/util/AbstractCollection	<init>	()V	AbstractCollection.java	36
+0x4bbdf3b8	android/view/GLES20Canvas	isAvailable	()Z	GLES20Canvas.java	77
+0x4bb8e3d0	org/apache/harmony/dalvik/ddmc/Chunk	<init>	(I[BII)V	Chunk.java	45
+0x4bb8e4e8	org/apache/harmony/dalvik/ddmc/DdmServer	dispatch	(I[BII)Lorg/apache/harmony/dalvik/ddmc/Chunk;	DdmServer.java	143
+0x4bd03a98	android/opengl/ManagedEGLContext	getContext	()Ljavax/microedition/khronos/egl/EGLContext;	ManagedEGLContext.java	70
+0x4bc603c8	android/app/Application	onTrimMemory	(I)V	Application.java	106
+0x4bc600e8	android/app/Application	collectComponentCallbacks	()[Ljava/lang/Object;	Application.java	217
+0x4bc59d50	android/app/ActivityThread$ApplicationThread	scheduleTrimMemory	(I)V	ActivityThread.java	1126
+0x4bc3fc78	java/nio/ReadWriteHeapByteBuffer	<init>	([B)V	ReadWriteHeapByteBuffer.java	45
+0x4bd30938	android/view/HardwareRenderer$Gl20Renderer	endTrimMemory	()V	HardwareRenderer.java	1650
+0x4bd30970	android/view/HardwareRenderer$Gl20Renderer	startTrimMemory	(I)V	HardwareRenderer.java	1631
+0x4bd309a8	android/view/HardwareRenderer$Gl20Renderer	usePbufferSurface	(Ljavax/microedition/khronos/egl/EGLContext;)V	HardwareRenderer.java	1656
+0x4bbd1980	java/lang/ThreadLocal	get	()Ljava/lang/Object;	ThreadLocal.java	53
+0x4bbd1a98	java/lang/ThreadLocal	values	(Ljava/lang/Thread;)Ljava/lang/ThreadLocal$Values;	ThreadLocal.java	121
+0x4bd08728	android/os/Message	clearForRecycle	()V	Message.java	-1
+0x4bd088e8	android/os/Message	isInUse	()Z	Message.java	-1
+0x4bd08920	android/os/Message	markInUse	()V	Message.java	423
+0x4bd08990	android/os/Message	recycle	()V	Message.java	249
+0x4bd08528	android/os/Message	obtain	()Landroid/os/Message;	Message.java	107
+0x4bbb2678	java/util/ArrayList	add	(Ljava/lang/Object;)Z	ArrayList.java	-1
+0x4bbb2838	java/util/ArrayList	get	(I)Ljava/lang/Object;	ArrayList.java	303
+0x4bbb2a68	java/util/ArrayList	size	()I	ArrayList.java	315
+0x4bbb24b0	java/util/ArrayList	<init>	()V	ArrayList.java	81
+0x4bb8f6a0	dalvik/system/VMDebug	isMethodTracingActive	()Z	VMDebug.java	-2
+0x4bb8f9e8	dalvik/system/VMDebug	startMethodTracingDdms	(II)V	VMDebug.java	-1
+0x4bb8fb00	dalvik/system/VMDebug	stopMethodTracing	()V	VMDebug.java	-2
+0x4bb91340	java/lang/Number	<init>	()V	Number.java	33
+0x4bbaff68	java/util/AbstractList	<init>	()V	AbstractList.java	376
+0x4bc39a80	java/util/HashMap$Values	iterator	()Ljava/util/Iterator;	HashMap.java	922
+0x4bc5c228	android/app/ActivityThread$H	handleMessage	(Landroid/os/Message;)V	ActivityThread.java	-1
+0x4bbc3030	android/os/SystemClock	uptimeMillis	()J	SystemClock.java	-2
+0x4bd2c400	android/view/CompatibilityInfoHolder	getIfNeeded	()Landroid/content/res/CompatibilityInfo;	CompatibilityInfoHolder.java	39
+0x4bc33d88	java/util/HashMap$HashIterator	hasNext	()Z	HashMap.java	787
+0x4bc33dc0	java/util/HashMap$HashIterator	nextEntry	()Ljava/util/HashMap$HashMapEntry;	HashMap.java	791
+0x4bc33d48	java/util/HashMap$HashIterator	<init>	(Ljava/util/HashMap;)V	HashMap.java	775
+0x4bd4cb28	android/view/WindowManagerGlobal	endTrimMemory	()V	WindowManagerGlobal.java	415
+0x4bd4cc08	android/view/WindowManagerGlobal	startTrimMemory	(I)V	WindowManagerGlobal.java	-1
+0x4bd4c8f0	android/view/WindowManagerGlobal	getInstance	()Landroid/view/WindowManagerGlobal;	WindowManagerGlobal.java	121
+0x4be109e0	java/util/HashMap$ValueIterator	next	()Ljava/lang/Object;	HashMap.java	824
+0x4be10968	java/util/HashMap$ValueIterator	<init>	(Ljava/util/HashMap;)V	HashMap.java	822
+0x4be109a0	java/util/HashMap$ValueIterator	<init>	(Ljava/util/HashMap;Ljava/util/HashMap$1;)V	HashMap.java	822
+0x4bb8c468	java/nio/BaseByteBuffer	<init>	(ILjava/nio/MemoryBlock;)V	BaseByteBuffer.java	26
+0x4bc5aec8	android/app/ApplicationThreadNative	onTransact	(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z	ApplicationThreadNative.java	70
+0x4bb845c8	java/lang/Thread	currentThread	()Ljava/lang/Thread;	Thread.java	476
+0x4bc0e570	android/os/MessageQueue	enqueueMessage	(Landroid/os/Message;J)Z	MessageQueue.java	-1
+0x4bc0e688	android/os/MessageQueue	next	()Landroid/os/Message;	MessageQueue.java	118
+0x4bc0e4c0	android/os/MessageQueue	nativePollOnce	(II)V	MessageQueue.java	-2
+0x4bc0e4f8	android/os/MessageQueue	nativeWake	(I)V	MessageQueue.java	-2
+0x4bc1dc78	android/app/ActivityThread	applyConfigCompatMainThread	(ILandroid/content/res/Configuration;Landroid/content/res/CompatibilityInfo;)Landroid/content/res/Configuration;	ActivityThread.java	1637
+0x4bc1dd58	android/app/ActivityThread	collectComponentCallbacks	(ZLandroid/content/res/Configuration;)Ljava/util/ArrayList;	ActivityThread.java	3719
+0x4bc1e3e8	android/app/ActivityThread	handleTrimMemory	(I)V	ActivityThread.java	4102
+0x4bc1ce38	android/app/ActivityThread	access$400	(Landroid/app/ActivityThread;ILjava/lang/Object;I)V	ActivityThread.java	141
+0x4bc1da40	android/app/ActivityThread	queueOrSendMessage	(ILjava/lang/Object;I)V	ActivityThread.java	2047
+0x4bc1da78	android/app/ActivityThread	queueOrSendMessage	(ILjava/lang/Object;II)V	ActivityThread.java	2051
+0x4bba1530	java/lang/System	arraycopy	(Ljava/lang/Object;ILjava/lang/Object;II)V	System.java	-2
+*end
+SLOW   È4vF                 È˘∏K    
+   …€¿K    (   Iπ K   (   1∫ K   (   È‰∏K   (   Ë‰∏K∑   p   XXπK÷   é   ®RπK÷   é   @πK÷   é   AπK÷   ≠   ©RπKÙ   ≠   YXπKÙ   ≠   òDªKÙ   ≠   XZπKÙ   ≠   YZπKÙ   ≠   ËYπKÙ   ≠   ÈYπK  À   ôDªK  À   –„∏K  À   —„∏K  À   0∫ K  À   †∏ K1  Í   8’¿K1  Í   †ˆ∏K1  Í   °ˆ∏K1  Í   9’¿K1  Í   –„∏KP     —„∏KP     °∏ KP     1∫ KP     È‰∏KP    
+ ﬁºK    ëÃ 
+ ®.ΩK    ëÃ 
+ »&ΩK    ëÃ 
+ …&ΩK    ëÃ 
+ ©.ΩK    ëÃ 
+ ®.ΩK   ØÃ 
+ »&ΩK   ØÃ 
+ …&ΩK   ØÃ 
+ ©.ΩK   ØÃ 
+ »Æ≈K   ØÃ 
+ 3ΩK   ØÃ 
+ ¿(ΩK   ŒÃ 
+ ¡(ΩK=   ŒÃ 
+ Ò3ΩK=   ŒÃ 
+ †9ΩK=   ŒÃ 
+ Ä*ΩK=   ÏÃ 
+ Å*ΩK\   ÏÃ 
+ °9ΩK\   ÏÃ 
+ Pù≈K\   ÏÃ 
+ 8Œ¡K\   ÏÃ 
+ @⁄¡K\   ÏÃ 
+ x⁄¡K\   Õ 
+ (Ö–Kz   Õ 
+ )Ö–Kz   Õ 
+ `À≈Kz   Õ 
+ Ã≈Kz   )Õ 
+ 00ºKô   )Õ 
+ 10ºKô   )Õ 
+ –À≈Kô   )Õ 
+ Xƒ≈Kô   )Õ 
+ pÂ¿K∑   HÕ 
+ Ëà–K∑   HÕ 
+ Èà–K∑   HÕ 
+ ¯‰¿K∑   HÕ 
+ ˘‰¿K÷   fÕ 
+ qÂ¿K÷   fÕ 
+ Yƒ≈K÷   fÕ 
+ —À≈K÷   fÕ 
+ 	Ã≈K÷   fÕ 
+ aÀ≈KÙ   ÖÕ 
+ y⁄¡KÙ   ÖÕ 
+ A⁄¡KÙ   ÖÕ 
+ 9Œ¡KÙ   ÖÕ 
+ Qù≈KÙ   ÖÕ 
+ …Æ≈KÙ   ÖÕ 
+ 8>ΩKÙ   ÖÕ 
+ ê&ΩK  £Õ 
+ ë&ΩK  £Õ 
+ 9>ΩK  £Õ 
+ 8>ΩK  £Õ 
+ ê&ΩK  £Õ 
+ ë&ΩK  £Õ 
+ 9>ΩK1  ¬Õ 
+ ﬁºK1  ¬Õ  00ºK   ∂Œ  10ºK   ∂Œ   â–K   ∂Œ  !â–K   ∂Œ  âÊ¿K   ∂Œ  @≈≈K   ’Œ  (¬≈K=   ’Œ  hÓ¿K=   ’Œ  PÌ¿K=   ’Œ  QÌ¿K=   ’Œ  iÓ¿K=   ’Œ  Ë„¡K=   ’Œ  »‘K\   ÛŒ  Ò»‘K\   ÛŒ  Ã‘K\   œ  )æKz   œ  ∏ÛΩKz   œ  πÛΩKz   œ  	)æKz   œ   +æKz   0œ  p	”Kô   0œ  ÄΩKô   0œ  »E∏Kô   0œ  ÿ[∏Kô   Oœ  Ÿ[∏K∑   Oœ  …E∏K∑   Oœ  òΩK∑   Oœ  ôΩK∑   Oœ  Hd√K÷   mœ  Id√K÷   mœ  Äd√K÷   mœ  Åd√K÷   mœ  ÅΩK÷   mœ  ò:–K÷   mœ  ô:–KÙ   åœ  ®	”KÙ   åœ  høKÙ   åœ  iøK%  ·ﬂ  ©	”K%  ·ﬂ  q	”KD  [‡  +æKD  [‡  	Ã‘KD  y‡  X›¡Kb  y‡  ∞$ªKb  y‡  hˇ∫KÅ  ò‡  8ªKÅ  ò‡  9ªKÅ  ò‡  iˇ∫KÅ  ò‡  ±$ªKÅ  ò‡  h*ªKÅ  ò‡  i*ªKü  ∂‡  8(ªKü  ∂‡  9(ªKü  ∂‡  x&ªKü  ∂‡  0∫Kü  ∂‡  1∫Kü  ∂‡  y&ªKæ  ’‡  8GªKæ  ’‡  9GªKæ  ’‡  pGªKæ  ’‡  qGªKæ  Û‡  Äö√K‹  Û‡  ËEªK‹  Û‡  †	·K‹  Û‡  h	·K‹  Û‡  H=√K˚  ·  I=√K˚  ·  i	·K˚  ·  °	·K˚  ·  ÈEªK˚  ·  Åö√K˚  ·  à=√K˚  0·  â=√K  0·  ‡	·K  0·  ¿=√K  0·  ¡=√K  0·  ·	·K  0·   ƒ“K  O·  ƒ“K8  O·  x‹¡K8  O·  y‹¡K8  O·  x&ªK8  O·  y&ªKV  m·  à=√KV  m·  â=√KV  m·  8GªKV  m·  9GªKV  m·  8GªKV  m·  9GªKV  å·  Y›¡Ku  å·  h*ªKu  å·  i*ªKu  å·  8(ªKu  å·  9(ªKu  å·  »∆Ku  å·  Ë ∆Ku  ™·  h*ªKî  ™·  i*ªKî  ™·  È ∆Kî  ™·  …∆Kî  ™·  8(ªKî  ™·  9(ªKî  ™·  (¬K≤  …·   ⁄∆K≤  …·  !⁄∆K≤  …·  )¬K≤  …·  (À‘K≤  …·  –(æK≤  …·  8	”K—  Á·  høK—  Á·  iøK,  7„  9	”K,  7„  —(æK,  7„  )À‘K,  7„  È„¡K,  7„  ÿÓ¿K,  7„  PÌ¿K,  V„  QÌ¿KK  V„  ŸÓ¿KK  V„  )¬≈KK  V„  A≈≈KK  V„  ®›ºKK  V„  ©›ºKK  t„  êâ–Ki  t„  (á–Ki  t„  )á–Ki  t„  ëâ–Ki  t„  àÊ¿Ki  t„  ¿‰¿Ki  t„  ¡‰¿Kà  ì„  00ºKà  ì„  10ºKà  ì„  h*ªKà  ±„  i*ªK¶  ±„  PﬁºK¶  ±„  QﬁºK¶  ±„  ¿‰¿K¶  ±„  Ë‰∏K   ⁄  XXπKË  ⁄  ®RπKË  ⁄  @πKË  ⁄  AπKË  ⁄  ©RπKË  ¯  YXπK  ¯  òDªK  ¯  XZπK  ¯  YZπK  ¯  ËYπK  ¯  ÈYπK  ¯  ôDªK&    –„∏K&    —„∏K&     µ K&    X≥ K&    @∂¡K&    ‡«∏KD  5  –k√KD  5  —k√KD  5  x¸√Kc  T  ƒKc  T  (ƒKc  T  hƒ∏Kc  T   «∏Kc  T  h’∏Kc  T  i’∏Kc  s  «∏KÅ  s  iƒ∏KÅ  s  )ƒKÅ  s  ÒƒKÅ  s  y¸√KÅ  s  ·«∏KÅ  s  êœ∏KÅ  ë   –∏K†  ë  –∏K†  ë  ëœ∏K†  ë  A∂¡K†  ë  hƒK†  ë  iƒK†  ë  »‡‰K†  ë  …‡‰K›  Œ  Y≥ K›  Œ  !µ K›  Œ  È‰∏K›  Œ  Ë‰∏K8  À™  XXπK8  À™  ®RπKW  È™  @πKW  È™  AπKW  È™  ©RπKW  È™  YXπKW  È™  òDªKW  È™  XZπKu  ´  YZπKu  ´  ËYπKu  ´  ÈYπKu  ´  ôDªKu  ´  –„∏Ku  ´  —„∏Ku  &´   µ Kî  &´  X≥ Kî  &´  @∂¡Kî  &´  ‡«∏Kî  &´  –k√Kî  &´  —k√Kî  &´  x¸√K≤  E´  ƒK≤  E´  (ƒK≤  E´  hƒ∏K≤  E´   «∏K≤  E´  h’∏K≤  E´  i’∏K≤  c´  «∏K—  c´  iƒ∏K—  c´  )ƒK—  c´  ÒƒK—  c´  y¸√K—  c´  ·«∏K—  c´  êœ∏K—  Ç´   –∏KÔ  Ç´  –∏KÔ  Ç´  ëœ∏KÔ  Ç´  A∂¡KÔ  Ç´  hƒKÔ  Ç´  iƒKÔ  Ç´  »‡‰K  †´  …‡‰KK  W¨  Y≥ KK  W¨  !µ KK  W¨  È‰∏KK  W¨  Ë‰∏K¶  óR  XXπK¶  ∂R  ®RπK≈  ∂R  @πK≈  ∂R  AπK≈  ∂R  ©RπK≈  ∂R  YXπK≈  ∂R  òDªK≈  ’R  XZπK„  ’R  YZπK„  ’R  ËYπK„  ’R  ÈYπK„  ’R  ôDªK„  ’R  –„∏K  ÛR  —„∏K  ÛR   µ K  ÛR  X≥ K  ÛR  @∂¡K  ÛR  ‡«∏K  ÛR  –k√K  S  —k√K   S  x¸√K   S  ƒK   S  (ƒK   S  hƒ∏K   S   «∏K   S  h’∏K   0S  i’∏K?  0S  «∏K?  0S  iƒ∏K?  0S  )ƒK?  0S  ÒƒK?  0S  y¸√K?  0S  ·«∏K?  0S  êœ∏K?  OS   –∏K]  OS  –∏K]  OS  ëœ∏K]  OS  A∂¡K]  OS  hƒK]  OS  iƒK]  OS  »‡‰K]  OS  …‡‰K|  …S  Y≥ Kõ  ÁS  !µ Kõ  ÁS  È‰∏Kõ  ÁS  Ë‰∏Kˆ   !  XXπKˆ   !  ®RπK  >!  @πK  >!  AπK  >!  ©RπK  >!  YXπK  >!  òDªK  >!  XZπK3  ]!  YZπK3  ]!  ËYπK3  ]!  ÈYπK3  ]!  ôDªK3  ]!  –„∏KR  {!  —„∏KR  {!  0∫ KR  {!  π KR  {!  p‹¿Kp  ö!   ˚∏Kè  ∏! 
